@@ -45,7 +45,7 @@ class CircularQueue:
 
     def size(self):
         return len(self.queueArray)
-
+    
 
 
 if __name__ == "__main__":
@@ -65,3 +65,5 @@ if __name__ == "__main__":
     print("Peek after dequeue:", circularQueue.peek())
 
     print(circularQueue.size())
+    
+    

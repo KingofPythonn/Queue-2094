@@ -20,7 +20,7 @@ class Queue:
         
     def size(self):
         return len(self.items)
-
+    
 # Example usage
 # Create an instance of the Queue class
 queue = Queue()
